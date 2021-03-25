@@ -1,0 +1,38 @@
+/*basic styling*/
+:root {
+    --std: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*ini untuk mengubah font*/
+body {
+    font-family: var(--std);
+    font-size: 16px;
+}
+nav {
+    background-color: #387c6d;
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0;
+    color: white;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #f8f5f1;
+    font-family: var(--std);
+}
